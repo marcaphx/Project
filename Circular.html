@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Circular Grid | Coding Vibess</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="Circular.css" />
+</head>
+
+<body>
+  <div class="sidebar" id="sidebar">
+    <button class="sidebar-toggle" id="sidebarToggle">&#9776;</button>
+    <nav>
+      <ul>
+        <li><a href="Circular.html">Circular Board</a></li>
+        <li><a href="fotoalbum.html">fotoalbum</a></li>
+        <li><a href="imgBar.html">IMG BAR</a></li>
+        <li><a href="ScrapBook.html">ScrapBook</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="main-content">
+    <div class="gallery-container">
+      <div class="gallery">
+        <img
+          src="https://images.pexels.com/photos/4318576/pexels-photo-4318576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+        <img
+          src="https://images.pexels.com/photos/30912162/pexels-photo-30912162/free-photo-of-illuminated-colosseum-at-dusk-in-rome.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+        <img
+          src="https://images.pexels.com/photos/16353919/pexels-photo-16353919/free-photo-of-fontanna-di-trevi-in-rome-italy.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+        <img
+          src="https://images.pexels.com/photos/3087240/pexels-photo-3087240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+      </div>
+      <div class="gallery">
+        <img
+          src="https://images.pexels.com/photos/4318576/pexels-photo-4318576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+        <img
+          src="https://images.pexels.com/photos/30912162/pexels-photo-30912162/free-photo-of-illuminated-colosseum-at-dusk-in-rome.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+        <img
+          src="https://images.pexels.com/photos/16353919/pexels-photo-16353919/free-photo-of-fontanna-di-trevi-in-rome-italy.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+        <img
+          src="https://images.pexels.com/photos/3087240/pexels-photo-3087240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+      </div>
+    </div>
+  </div>
+  <script>
+    // Simple sidebar toggle
+    document.getElementById('sidebarToggle').onclick = function () {
+      document.getElementById('sidebar').classList.toggle('collapsed');
+    };
+  </script>
+</body>
+
+</html>

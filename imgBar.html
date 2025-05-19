@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="imgBar.css">
+</head>
+
+<body>
+    <div class="sidebar" id="sidebar">
+        <button class="sidebar-toggle" id="sidebarToggle">&#9776;</button>
+        <nav>
+            <ul>
+                <li><a href="Circular.html">Circular Board</a></li>
+                <li><a href="fotoalbum.html">fotoalbum</a></li>
+                <li><a href="imgBar.html">IMG BAR</a></li>
+                <li><a href="ScrapBook.html">ScrapBook</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-content">
+        <div class="card">
+            <p><span>HOVER ME</span></p>
+            <p><span>HOVER ME</span></p>
+            <p><span>HOVER ME</span></p>
+            <p><span>HOVER ME</span></p>
+            <p><span>HOVER ME</span></p>
+            <p><span>HOVER ME</span></p>
+        </div>
+    </div>
+    <script>
+        document.getElementById('sidebarToggle').onclick = function () {
+            document.getElementById('sidebar').classList.toggle('collapsed');
+        };
+    </script>
+</body>
+
+</html>
